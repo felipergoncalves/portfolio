@@ -2,7 +2,7 @@
 
 Bem-vindo ao meu portfólio! Este projeto foi desenvolvido usando TypeScript, React, Vite, Tailwind CSS e Framer Motion para criar um site pessoal interativo e atraente.
 
-![Screenshot](./screenshot.png)
+![Screenshot](./src/assets/portfolio.jpeg)
 
 ## Acesse o Site
 
