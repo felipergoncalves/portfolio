@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido usando TypeScript, React, Vite, Tailwind CSS e Framer Motion para criar um site pessoal interativo e atraente.
 
-Currently, two official plugins are available:
+![Screenshot](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Acesse o Site
 
-## Expanding the ESLint configuration
+Para visualizar o meu portfólio online, basta acessar o seguinte link: [https://felipergoncalves.github.io/portfolio/](https://felipergoncalves.github.io/portfolio/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+- **TypeScript:** Uma linguagem de programação que adiciona tipos ao JavaScript, ajudando a evitar erros e a melhorar a produtividade durante o desenvolvimento.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **React:** Uma biblioteca JavaScript popular para a criação de interfaces de usuário interativas e reativas.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Vite:** Um build tool ultrarrápido e otimizado para o desenvolvimento de projetos em JavaScript e TypeScript.
+
+- **Tailwind CSS:** Um framework de estilização utilitária que permite criar designs modernos com facilidade, aproveitando classes pré-definidas.
+
+- **Framer Motion:** Uma biblioteca para adicionar animações fluidas e ricas a componentes React, tornando a experiência do usuário mais dinâmica e envolvente.
+
+## Funcionalidades Principais
+
+- Apresentação profissional
+- Exibição de projetos recentes
+- Detalhes sobre minhas habilidades e experiência
+- Página de contato interativa
