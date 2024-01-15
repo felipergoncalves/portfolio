@@ -20,7 +20,7 @@ function About({setSelectedPage}: Props) {
     <section id="sobre" className='gap-16 bg-slate-100 py-10 md:h-full md:pb-0'>
         {/* image and main header */}
         <motion.div 
-            className={`${reverseContent} md:flex mx-auto w-5/6 items-center justify-between md:h-5/6`}
+            className={`${reverseContent} md:flex mx-auto w-5/6 items-center justify-between md:h-5/6 max-w-6xl`}
             onViewportEnter={() => setSelectedPage(SelectedPage.Sobre)}
             >
                 {/* img */}

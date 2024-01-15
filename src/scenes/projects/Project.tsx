@@ -21,7 +21,7 @@ function Project({image, title, link}: Props) {
         variants={childVariant}
         className={`${cardMargin} mt-5 p-5 rounded-2xl h-auto text-center hover:cursor-pointer bg-slate-200`}>
             <div className="flex justify-center">
-                <img className="w-full h-full rounded-lg" src={image} alt=""/>
+                <img className="w-full h-full rounded-lg" src={`../../../src/assets/${image}`} alt=""/>
             </div>
             <div className="mt-5 text-start flex flex-col gap-5 justify-between">
                 <h4 className="font-bold">{title}</h4>

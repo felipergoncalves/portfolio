@@ -2,9 +2,9 @@ import useMediaQuery from '@/hooks/useMediaQuery'
 import { SelectedPage } from '@/shared/types'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { DocumentArrowDownIcon } from "@heroicons/react/24/outline";
-import MainImage from "@/assets/FelipeGoncalves.jpeg"
+import MainImage from "@/assets/linkedinProfilePic3.png"
 import { motion } from 'framer-motion'
-import curriculo from '@/assets/Curriculo_FelipeGoncalves.pdf'
+import curriculo from '@/assets/Curriculo-FelipeGoncalves.pdf'
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void
@@ -18,7 +18,7 @@ function Home({setSelectedPage}: Props) {
     <section id="home" className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'>
         {/* image and main header */}
         <motion.div 
-            className='md:flex mx-auto w-5/6 items-center justify-center md:h-5/6'
+            className='md:flex mx-auto w-5/6 items-center justify-center md:h-5/6 max-w-6xl'
             onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
             >
                 {/* main header */}

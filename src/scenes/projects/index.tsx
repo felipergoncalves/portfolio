@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 import Project from "./Project";
 const projects: Array<ProjectType> = [
     {
-        image: "/src/assets/expense-tracker/expense-tracker.jpeg",
+        image: "expense-tracker/expense-tracker.jpeg",
         title: "Expense Tracker",
         description: "Sistema financeiro desenvolvido para controle de receitas e despesas, retornando o balanço mensal",
         link: "https://github.com/felipergoncalves/expense-tracker"
     },
     {
-        image: "/src/assets/fetch-pets/fetch-pets-home.jpeg",
+        image: "fetch-pets/fetch-pets-home.jpeg",
         title: "Fetch Pets",
         description: "Plataforma de adoção e doação de pets, conectando pessoas interessadas em adotar e doar pets",
         link: "https://github.com/felipergoncalves/fetch-pets"
     },
     {
-        image: "/src/assets/github-finder/github-finder.jpeg",
+        image: "github-finder/github-finder.jpeg",
         title: "Github Finder",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's",
         link: "https://github.com/felipergoncalves/Github-Finder"
@@ -39,7 +39,7 @@ function Projects({setSelectedPage}: Props) {
     <section id="projetos" className="text-blue-100 bg-slate-300 gap-16 py-10 md:h-full md:pb-0">
         <motion.div
             onViewportEnter={() => setSelectedPage(SelectedPage.Projetos)}
-            className="md:flex md:my-15 mx-auto w-5/6 items-start flex-col md:h-5/6"
+            className="md:flex md:my-15 mx-auto w-5/6 items-start flex-col md:h-5/6 max-w-6xl"
         >
             {/* HEADER */}
             <motion.div
